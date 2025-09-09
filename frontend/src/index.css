@@ -1,0 +1,66 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #343a40;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.btn-success {
+  background-color: #198754;
+  border: none;
+}
+/* index.css */
+
+/* Smooth hover effect for cards */
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+/* Buttons hover */
+button:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+/* Table row hover */
+table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Global body styling */
+body {
+  background-color: #f1f3f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings */
+h2, h3 {
+  color: #343a40;
+}
+
+/* Navbar links */
+.nav-link {
+  margin-right: 10px;
+}
+
+/* Fixed footer */
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+
